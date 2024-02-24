@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+*.tmp
+lib/cc1101/ELECHOUSE_CC1101_SRC_DRV.h
+lib/cc1101/ELECHOUSE_CC1101_SRC_DRV.cpp
+.pio/**

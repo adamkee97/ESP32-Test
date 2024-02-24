@@ -1,3 +1,8 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
 {
     "configurations": [
         {
@@ -5,6 +10,8 @@
             "includePath": [
                 "D:/Projects/VSCode/ESP32-Test/include",
                 "D:/Projects/VSCode/ESP32-Test/src",
+                "D:/Projects/VSCode/ESP32-Test/lib/cc1101",
+                "C:/Users/Adam Kee/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src",
                 "C:/Users/Adam Kee/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/newlib/platform_include",
                 "C:/Users/Adam Kee/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include",
                 "C:/Users/Adam Kee/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/esp_additions/freertos",
@@ -217,7 +224,6 @@
                 "C:/Users/Adam Kee/.platformio/packages/framework-arduinoespressif32/libraries/RainMaker/src",
                 "C:/Users/Adam Kee/.platformio/packages/framework-arduinoespressif32/libraries/SD/src",
                 "C:/Users/Adam Kee/.platformio/packages/framework-arduinoespressif32/libraries/SD_MMC/src",
-                "C:/Users/Adam Kee/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src",
                 "C:/Users/Adam Kee/.platformio/packages/framework-arduinoespressif32/libraries/SPIFFS/src",
                 "C:/Users/Adam Kee/.platformio/packages/framework-arduinoespressif32/libraries/SimpleBLE/src",
                 "C:/Users/Adam Kee/.platformio/packages/framework-arduinoespressif32/libraries/Ticker/src",
@@ -228,14 +234,15 @@
                 "C:/Users/Adam Kee/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src",
                 "C:/Users/Adam Kee/.platformio/packages/framework-arduinoespressif32/libraries/WiFiProv/src",
                 "C:/Users/Adam Kee/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src",
-                "",
-                "${workspaceFolder}/lib/cc1101"
+                ""
             ],
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
                     "D:/Projects/VSCode/ESP32-Test/include",
                     "D:/Projects/VSCode/ESP32-Test/src",
+                    "D:/Projects/VSCode/ESP32-Test/lib/cc1101",
+                    "C:/Users/Adam Kee/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src",
                     "C:/Users/Adam Kee/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/newlib/platform_include",
                     "C:/Users/Adam Kee/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include",
                     "C:/Users/Adam Kee/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/esp_additions/freertos",
@@ -448,7 +455,6 @@
                     "C:/Users/Adam Kee/.platformio/packages/framework-arduinoespressif32/libraries/RainMaker/src",
                     "C:/Users/Adam Kee/.platformio/packages/framework-arduinoespressif32/libraries/SD/src",
                     "C:/Users/Adam Kee/.platformio/packages/framework-arduinoespressif32/libraries/SD_MMC/src",
-                    "C:/Users/Adam Kee/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src",
                     "C:/Users/Adam Kee/.platformio/packages/framework-arduinoespressif32/libraries/SPIFFS/src",
                     "C:/Users/Adam Kee/.platformio/packages/framework-arduinoespressif32/libraries/SimpleBLE/src",
                     "C:/Users/Adam Kee/.platformio/packages/framework-arduinoespressif32/libraries/Ticker/src",
